@@ -147,3 +147,14 @@ interrupted transfer should be possible.
 It should be easy to add or remove a client, to swap drives, etc. Ideally,
 initial setup would also be easy. There should be a mode where the client and
 server are bundled together.
+
+
+### Diverse storage media
+
+Hard drives, solid state drives, and cloud storage should be the primary
+targets. Tapes, optical media, and any other reasonable storage media should
+also be supported, at least to a limited extent. For example, it might be
+reasonable to require low seek latency for creating a new backup, but support
+bulk copying to tapes or optical media after the backup is created. To the
+extent possible, all media should support integrity verification in a single
+pass, and extraction of a complete set of or subset of data in a single pass.
